@@ -11,7 +11,7 @@ using namespace std;
 static const string filename = "example.txt";
 
 string getCharAt(vector<string> s, int x, int y) {
-    return s.at(x).substr(y, 1);
+    return s.at(y).substr(x, 1);
 }
 
 void loopDoStuff(vector<string> input) {
